@@ -1,0 +1,82 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment-16</title>
+	<link rel="stylesheet" type="text/css" href="{% static 'css/fb.css' %}">
+
+</head>
+<body>
+	<header>
+		<h1>Facebook</h1>
+		<div id="form">
+			
+			<form>
+				<table>
+					<tr>
+					<td><label>Email or Phone</label></td>
+					<td><label>Passward</label></td>
+				</tr>
+					<tr>
+					<td><input type="" name=""> </td>
+					<td><input type="" name=""> </td>
+					<td><button>Log In</button></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td>Forgetten Account?</td>
+				</tr>
+				</table>
+			</form>
+		</div>
+	</header>
+	<div>
+		<div class="content-block clearfix">
+		<div class="fb-content">
+				<p>Facebook helps you connect and share with the<br> people in your life</p>
+
+				<img src="{% static 'images/fb.jpg' %}">
+		</div>
+
+			<div class="account">
+					<form>
+						<div class="create-account">
+
+							<h1>Create an Account</h1>
+
+							<p class="free">It's free and always wii be</p>
+
+						</div>
+
+						<input type="text" name="firstname" placeholder="First name">
+						<input type="text" name="surname" placeholder="Surname"><br>
+
+						<input type="text" name="mobile" placeholder="Mobile number or email address"><br>
+
+						<input type="text" name="mobile" placeholder="Re-enter mobile number of email address"><br>
+
+						<input type="password" name="password" placeholder="New Passward"><br>
+						<br>
+						<label>Birthday</label>
+						<br>
+						<input type="date" name="date"><br>
+						<label>Gender</label>
+						<br>
+
+						<input type="radio" name="gender" value="Female">Female</input>
+						<input type="radio" name="gender" value="Male">Male</input>
+						<input type="radio" name="gender" value="Custom">Custom</input>
+						<span class="span">?</span><br><br>
+
+						<span>By clicking Create an account you agree to our Terms and that you have read our Data Policy</a>including our Cookie Use </span><br>
+
+						<input type="submit" value="Sign Up" ><br>
+
+					</form>
+			</div>
+		
+	
+	</div>
+
+</body>
+</html>

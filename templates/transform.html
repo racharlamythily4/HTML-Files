@@ -1,0 +1,53 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment-9</title>
+	<style>
+		div
+		{
+
+			width: 250px;
+			height:200px;
+			background-color: limegreen;
+			margin:200px auto;
+			border: 3px solid yellow;
+			position: relative;
+			overflow: hidden;
+		}
+		div>img
+		{
+			width: inherit;
+			height: inherit;
+		}
+		div:hover>#one
+		{
+			cursor: pointer;
+			transform: translateX(0%);
+
+		}
+		div:hover
+		{
+			cursor: pointer;
+		}
+		div>#one
+		{
+			background-color: rgba(100,100,6,0.4);
+			position: absolute;
+			top: 0px;
+			left: 0px;
+			margin: 0px;
+			transition: all 1s linear 0s;
+			transform: translateX(-260px);
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div>
+
+		<img src="{% static 'images/flipkart.jpg' %}">
+		<div id="one">Flipkart</div>
+	</div>
+</body>
+</html>

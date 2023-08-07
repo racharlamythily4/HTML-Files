@@ -1,0 +1,65 @@
+*
+{
+	margin: 0px;
+}
+body
+{
+
+}
+
+header,footer
+{
+	background-color: skyblue;
+	padding: 20px 30px;
+}
+
+nav
+{
+	text-decoration: none;
+	background-color: pink;
+	padding: 15px;
+	text-align: center;
+
+}
+
+nav>a
+{
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+
+aside>a
+{
+	display: block;
+	background-color: pink;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	height: 60px;
+	padding: 20px 0px;
+}
+
+section
+{
+	background-color: skyblue;
+	margin-left: 150px;
+	float: left;
+	padding: 8px;
+	margin-top: -1000px;
+}
+section>article
+{
+	float: left;
+	padding: 10px 20px;
+	border: 1px solid white;
+	margin-top: 18px;
+	border-width: 100%;
+}
+
+footer
+{
+	background-color: pink;
+	text-align: center;
+	padding: 20px;
+}

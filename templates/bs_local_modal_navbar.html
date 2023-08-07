@@ -1,0 +1,108 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Navbar</title>
+	<link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+	<link rel="stylesheet" href="{% static 'css/mdb.css' %}">
+	<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+	<style>
+		#landing-page
+		{
+			height: 100vh!important;
+			background: black url("../Assignments/ass13.jpeg") no-repeat 0px 0px scroll;
+			background-size: cover;
+		}
+		#landing-page>.wrapper
+		{
+			background-color: rgba(0,0,0,0.3);
+			height: inherit;
+		}
+	</style>
+</head>
+<body>
+	<!-- Navbar -->
+
+	<nav class="navbar navbar-dark bg-dark navbar-expand-md">
+		<div class="container-fluid">
+			<a href="" class="navbar-brand text-warning">Jspiders</a>
+			<button class="navbar-toggler" data-toggle="collapse" data-target="#links">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+ 
+			<div class="collapse navbar-collapse" id="links">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a href="" class="nav-links p-2">Course</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-links p-2">Gallery</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-links p-2">Placements</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-links p-2">Contact</a>
+					</li>
+					<li class="nav-item">
+						<a href="" class="nav-links p-2">Details</a>
+					</li>
+				</ul>
+			</div>
+
+			<div>
+				<button class="btn btn-sm btn-outline-white p-2" data-target='#login' data-toggle='modal'>SingIn</button>
+				<button class="btn btn-sm btn-outline-white p-2" data-target='#login' data-toggle='modal'>Register</button>
+			</div>
+
+		</div>
+	</nav>
+
+	<!-- BS Modal -->
+
+	<div class="modal" id="login">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				 <div class="modal-header bg-primary">
+				 	<h2 class="text-white text-center">LogIn Here</h2>
+				 </div>
+				 <div class="modal-body bg-light">
+				 	 <form>
+				 	 	<div class="form-group">
+				 	 		<input type="text" name="" placeholder="Enter Email/Username" class="form-control">
+				 	 	</div>
+				 	 	<div class="form-group">
+				 	 		<input type="password" name="" placeholder="Enter Passward" class="form-control">
+				 	 	</div>
+				 	 </form>
+				 </div>
+				 <div class="modal-footer bg-primary">
+				 	<button class="btn btn-outline-white btn-md"> 
+				 		Submit
+				 	</button>
+				 	<button class="btn btn-outline-white btn-md" data-dismiss="modal">
+				 		Cancel
+				 	</button>
+				 </div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Landing-Page -->
+	<div id="landing-page">
+		<div class="wrapper text-white d-flex flex-column text-center align-items-center justify-content-center">
+			<h1>Welcome To <span>J</span>spiders</h1>
+			<p>Jspiders is the world’s ace java development training organization with an aim to bridge the gap between the demands of the industry and the curriculum of educational institutions. With centers across India, the institute is a platform where young minds are given the opportunity to build successful careers.</p>
+			<button>Learn More</button>
+		</div>
+	</div>
+
+
+
+<!-- Script Code -->
+<script src="../mbd/js/jquery.js"></script>
+<script src="../mbd/js/popper.js"></script>
+<script src="../mbd/js/bootstrap.js"></script>
+<script src="../mbd/js/mdb.js"></script>
+</body>
+</html>

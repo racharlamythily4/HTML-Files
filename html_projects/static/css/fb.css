@@ -1,0 +1,108 @@
+*
+{
+	margin: 1px;
+}
+header
+{
+	background-color: blue;
+	padding: 10px;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	
+	
+}
+header>#form>form
+{
+	justify-content: flex-end;	
+	align-items: center;
+}
+
+#fb,#one
+{
+	display: flex;
+	border: 1px solid black;
+	width: 50%;
+	height: 800px;
+}
+img
+{
+	width: 600px;
+	height: 250px;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+}
+.clearfix
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+
+
+.create-account .account
+{
+	
+	align-items: flex-end;
+}
+
+.fb-content p
+{
+	color: black;
+	font-size: 25px;
+}
+
+..create-account .free{
+	font-size: 18px;
+	color: black;
+	margin: 20px 0px 20px 0px;
+}
+
+.account input[type='password']
+{
+	margin-bottom: 15px;
+	font-size: 16px;
+	border-radius: 5px;
+	margin-left: 0px;
+	padding: 10px 70px;
+	border: 1px solid black;
+}
+.account input[type='text']
+{
+	margin-bottom: 15px;
+	border-radius: 5px;
+	padding: 10px 70px;
+	font-size: 16px;
+	border: 1px solid black;
+
+}
+.account input[name='mobile']
+{
+	padding: 10px 243px;
+}
+.account input[type='submit']
+{
+	padding: 15px 62px;
+	border-radius: 5px;
+	border: 1px solid black;
+	font-size: 25px;
+	margin:15px 0px 15px 0px ;
+	background-color: green;
+}
+
+.account input[type='radio']
+{
+	margin: 20px 0px 20px 0px;
+}
+
+
+.account lable
+{
+	font-weight: bold;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
